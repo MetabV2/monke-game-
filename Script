@@ -63,24 +63,34 @@ local Button_18 = Instance.new("ImageButton")
 local BtnText_22 = Instance.new("TextLabel")
 local Button_19 = Instance.new("ImageButton")
 local BtnText_23 = Instance.new("TextLabel")
+local BtnText_24 = Instance.new("TextLabel")
 local CloseButton = Instance.new("ImageButton")
 local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
 local UIGradient_5 = Instance.new("UIGradient")
 local MISCFRAME = Instance.new("Frame")
 local Button_20 = Instance.new("ImageButton")
-local BtnText_24 = Instance.new("TextLabel")
-local Button_21 = Instance.new("ImageButton")
 local BtnText_25 = Instance.new("TextLabel")
-local Button_22 = Instance.new("ImageButton")
+local Button_21 = Instance.new("ImageButton")
 local BtnText_26 = Instance.new("TextLabel")
-local Button_23 = Instance.new("ImageButton")
+local Button_22 = Instance.new("ImageButton")
 local BtnText_27 = Instance.new("TextLabel")
-local Button_24 = Instance.new("ImageButton")
+local Button_23 = Instance.new("ImageButton")
 local BtnText_28 = Instance.new("TextLabel")
-local Button_25 = Instance.new("ImageButton")
+local Button_24 = Instance.new("ImageButton")
 local BtnText_29 = Instance.new("TextLabel")
-local Button_26 = Instance.new("ImageButton")
+local Button_25 = Instance.new("ImageButton")
 local BtnText_30 = Instance.new("TextLabel")
+local Button_26 = Instance.new("ImageButton")
+local BtnText_31 = Instance.new("TextLabel")
+local Button_27 = Instance.new("ImageButton")
+local BtnText_32 = Instance.new("TextLabel")
+local Button_28 = Instance.new("ImageButton")
+local BtnText_33 = Instance.new("TextLabel")
+local Button_29 = Instance.new("ImageButton")
+local BtnText_34 = Instance.new("TextLabel")
+local Button_30 = Instance.new("ImageButton")
+local BtnText_35 = Instance.new("TextLabel")
+local BtnText_36 = Instance.new("TextLabel")
 local ImageButton = Instance.new("ImageButton")
 
 --Properties:
@@ -518,7 +528,7 @@ BtnText_12.BorderSizePixel = 0
 BtnText_12.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
 BtnText_12.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
 BtnText_12.Font = Enum.Font.GothamBlack
-BtnText_12.Text = "GIVE ARMOUR"
+BtnText_12.Text = "GIVE ARMOR"
 BtnText_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_12.TextScaled = true
 BtnText_12.TextSize = 14.000
@@ -821,6 +831,21 @@ BtnText_23.TextScaled = true
 BtnText_23.TextSize = 14.000
 BtnText_23.TextWrapped = true
 
+BtnText_24.Name = "BtnText"
+BtnText_24.Parent = AUTOFARMFRAME
+BtnText_24.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_24.BackgroundTransparency = 1.000
+BtnText_24.BorderSizePixel = 0
+BtnText_24.Position = UDim2.new(0.484989911, 0, 0.876913011, 0)
+BtnText_24.Size = UDim2.new(0.810039282, -5, 0.136918023, -5)
+BtnText_24.Font = Enum.Font.Bangers
+BtnText_24.Text = "The weapon appears if there is one on the map."
+BtnText_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_24.TextScaled = true
+BtnText_24.TextSize = 6.000
+BtnText_24.TextWrapped = true
+
 CloseButton.Name = "CloseButton"
 CloseButton.Parent = ImageLabel
 CloseButton.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -853,69 +878,42 @@ Button_20.Parent = MISCFRAME
 Button_20.AnchorPoint = Vector2.new(1, 1)
 Button_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Button_20.BackgroundTransparency = 1.000
-Button_20.Position = UDim2.new(0.469000012, 0, 0.143999994, 0)
+Button_20.Position = UDim2.new(0.470999986, 0, 0.141000003, 0)
 Button_20.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
 Button_20.Image = "rbxassetid://2790382281"
 Button_20.ImageColor3 = Color3.fromRGB(19, 143, 143)
 Button_20.ScaleType = Enum.ScaleType.Slice
 Button_20.SliceCenter = Rect.new(4, 4, 252, 252)
 
-BtnText_24.Name = "BtnText"
-BtnText_24.Parent = Button_20
-BtnText_24.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_24.BackgroundTransparency = 1.000
-BtnText_24.BorderSizePixel = 0
-BtnText_24.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_24.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_24.Font = Enum.Font.GothamBlack
-BtnText_24.Text = "UPGRADE ALL (MONKE)"
-BtnText_24.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_24.TextScaled = true
-BtnText_24.TextSize = 14.000
-BtnText_24.TextWrapped = true
+BtnText_25.Name = "BtnText"
+BtnText_25.Parent = Button_20
+BtnText_25.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_25.BackgroundTransparency = 1.000
+BtnText_25.BorderSizePixel = 0
+BtnText_25.Position = UDim2.new(0.497999996, 0, 0.481999993, 0)
+BtnText_25.Size = UDim2.new(0.927069128, -5, 1.02472496, -5)
+BtnText_25.Font = Enum.Font.GothamBlack
+BtnText_25.Text = "UPGRADE ALL (MONKE)"
+BtnText_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_25.TextScaled = true
+BtnText_25.TextSize = 14.000
+BtnText_25.TextWrapped = true
 
 Button_21.Name = "Button "
 Button_21.Parent = MISCFRAME
 Button_21.AnchorPoint = Vector2.new(1, 1)
 Button_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Button_21.BackgroundTransparency = 1.000
-Button_21.Position = UDim2.new(0.884000003, 0, 0.244000003, 0)
+Button_21.Position = UDim2.new(0.880999982, 0, 0.240999997, 0)
 Button_21.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
 Button_21.Image = "rbxassetid://2790382281"
 Button_21.ImageColor3 = Color3.fromRGB(19, 143, 143)
 Button_21.ScaleType = Enum.ScaleType.Slice
 Button_21.SliceCenter = Rect.new(4, 4, 252, 252)
 
-BtnText_25.Name = "BtnText"
-BtnText_25.Parent = Button_21
-BtnText_25.AnchorPoint = Vector2.new(0.5, 0.5)
-BtnText_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_25.BackgroundTransparency = 1.000
-BtnText_25.BorderSizePixel = 0
-BtnText_25.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
-BtnText_25.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
-BtnText_25.Font = Enum.Font.GothamBlack
-BtnText_25.Text = "NOCLIP"
-BtnText_25.TextColor3 = Color3.fromRGB(255, 255, 255)
-BtnText_25.TextScaled = true
-BtnText_25.TextSize = 14.000
-BtnText_25.TextWrapped = true
-
-Button_22.Name = "Button "
-Button_22.Parent = MISCFRAME
-Button_22.AnchorPoint = Vector2.new(1, 1)
-Button_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_22.BackgroundTransparency = 1.000
-Button_22.Position = UDim2.new(0.884461522, 0, 0.14367637, 0)
-Button_22.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_22.Image = "rbxassetid://2790382281"
-Button_22.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_22.ScaleType = Enum.ScaleType.Slice
-Button_22.SliceCenter = Rect.new(4, 4, 252, 252)
-
 BtnText_26.Name = "BtnText"
-BtnText_26.Parent = Button_22
+BtnText_26.Parent = Button_21
 BtnText_26.AnchorPoint = Vector2.new(0.5, 0.5)
 BtnText_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_26.BackgroundTransparency = 1.000
@@ -923,26 +921,26 @@ BtnText_26.BorderSizePixel = 0
 BtnText_26.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
 BtnText_26.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
 BtnText_26.Font = Enum.Font.GothamBlack
-BtnText_26.Text = "FLY PRESS E"
+BtnText_26.Text = "NOCLIP"
 BtnText_26.TextColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_26.TextScaled = true
 BtnText_26.TextSize = 14.000
 BtnText_26.TextWrapped = true
 
-Button_23.Name = "Button "
-Button_23.Parent = MISCFRAME
-Button_23.AnchorPoint = Vector2.new(1, 1)
-Button_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_23.BackgroundTransparency = 1.000
-Button_23.Position = UDim2.new(0.470999986, 0, 0.344000012, 0)
-Button_23.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_23.Image = "rbxassetid://2790382281"
-Button_23.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_23.ScaleType = Enum.ScaleType.Slice
-Button_23.SliceCenter = Rect.new(4, 4, 252, 252)
+Button_22.Name = "Button "
+Button_22.Parent = MISCFRAME
+Button_22.AnchorPoint = Vector2.new(1, 1)
+Button_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_22.BackgroundTransparency = 1.000
+Button_22.Position = UDim2.new(0.880999982, 0, 0.141000003, 0)
+Button_22.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
+Button_22.Image = "rbxassetid://2790382281"
+Button_22.ImageColor3 = Color3.fromRGB(19, 143, 143)
+Button_22.ScaleType = Enum.ScaleType.Slice
+Button_22.SliceCenter = Rect.new(4, 4, 252, 252)
 
 BtnText_27.Name = "BtnText"
-BtnText_27.Parent = Button_23
+BtnText_27.Parent = Button_22
 BtnText_27.AnchorPoint = Vector2.new(0.5, 0.5)
 BtnText_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_27.BackgroundTransparency = 1.000
@@ -950,26 +948,26 @@ BtnText_27.BorderSizePixel = 0
 BtnText_27.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
 BtnText_27.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
 BtnText_27.Font = Enum.Font.GothamBlack
-BtnText_27.Text = "ALPHA MONKE (SOON)"
+BtnText_27.Text = "FLY PRESS E"
 BtnText_27.TextColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_27.TextScaled = true
 BtnText_27.TextSize = 14.000
 BtnText_27.TextWrapped = true
 
-Button_24.Name = "Button "
-Button_24.Parent = MISCFRAME
-Button_24.AnchorPoint = Vector2.new(1, 1)
-Button_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_24.BackgroundTransparency = 1.000
-Button_24.Position = UDim2.new(0.470999986, 0, 0.244000003, 0)
-Button_24.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_24.Image = "rbxassetid://2790382281"
-Button_24.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_24.ScaleType = Enum.ScaleType.Slice
-Button_24.SliceCenter = Rect.new(4, 4, 252, 252)
+Button_23.Name = "Button "
+Button_23.Parent = MISCFRAME
+Button_23.AnchorPoint = Vector2.new(1, 1)
+Button_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_23.BackgroundTransparency = 1.000
+Button_23.Position = UDim2.new(0.470999986, 0, 0.340999991, 0)
+Button_23.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
+Button_23.Image = "rbxassetid://2790382281"
+Button_23.ImageColor3 = Color3.fromRGB(19, 143, 143)
+Button_23.ScaleType = Enum.ScaleType.Slice
+Button_23.SliceCenter = Rect.new(4, 4, 252, 252)
 
 BtnText_28.Name = "BtnText"
-BtnText_28.Parent = Button_24
+BtnText_28.Parent = Button_23
 BtnText_28.AnchorPoint = Vector2.new(0.5, 0.5)
 BtnText_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_28.BackgroundTransparency = 1.000
@@ -977,26 +975,26 @@ BtnText_28.BorderSizePixel = 0
 BtnText_28.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
 BtnText_28.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
 BtnText_28.Font = Enum.Font.GothamBlack
-BtnText_28.Text = "KING ICON"
+BtnText_28.Text = "ALPHA SAMPLE"
 BtnText_28.TextColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_28.TextScaled = true
 BtnText_28.TextSize = 14.000
 BtnText_28.TextWrapped = true
 
-Button_25.Name = "Button "
-Button_25.Parent = MISCFRAME
-Button_25.AnchorPoint = Vector2.new(1, 1)
-Button_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_25.BackgroundTransparency = 1.000
-Button_25.Position = UDim2.new(0.884000003, 0, 0.344000012, 0)
-Button_25.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_25.Image = "rbxassetid://2790382281"
-Button_25.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_25.ScaleType = Enum.ScaleType.Slice
-Button_25.SliceCenter = Rect.new(4, 4, 252, 252)
+Button_24.Name = "Button "
+Button_24.Parent = MISCFRAME
+Button_24.AnchorPoint = Vector2.new(1, 1)
+Button_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_24.BackgroundTransparency = 1.000
+Button_24.Position = UDim2.new(0.470999986, 0, 0.240999997, 0)
+Button_24.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
+Button_24.Image = "rbxassetid://2790382281"
+Button_24.ImageColor3 = Color3.fromRGB(19, 143, 143)
+Button_24.ScaleType = Enum.ScaleType.Slice
+Button_24.SliceCenter = Rect.new(4, 4, 252, 252)
 
 BtnText_29.Name = "BtnText"
-BtnText_29.Parent = Button_25
+BtnText_29.Parent = Button_24
 BtnText_29.AnchorPoint = Vector2.new(0.5, 0.5)
 BtnText_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_29.BackgroundTransparency = 1.000
@@ -1004,26 +1002,26 @@ BtnText_29.BorderSizePixel = 0
 BtnText_29.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
 BtnText_29.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
 BtnText_29.Font = Enum.Font.GothamBlack
-BtnText_29.Text = "INVISIBLE"
+BtnText_29.Text = "KING ICON"
 BtnText_29.TextColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_29.TextScaled = true
 BtnText_29.TextSize = 14.000
 BtnText_29.TextWrapped = true
 
-Button_26.Name = "Button "
-Button_26.Parent = MISCFRAME
-Button_26.AnchorPoint = Vector2.new(1, 1)
-Button_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button_26.BackgroundTransparency = 1.000
-Button_26.Position = UDim2.new(0.470999986, 0, 0.450796127, 0)
-Button_26.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
-Button_26.Image = "rbxassetid://2790382281"
-Button_26.ImageColor3 = Color3.fromRGB(19, 143, 143)
-Button_26.ScaleType = Enum.ScaleType.Slice
-Button_26.SliceCenter = Rect.new(4, 4, 252, 252)
+Button_25.Name = "Button "
+Button_25.Parent = MISCFRAME
+Button_25.AnchorPoint = Vector2.new(1, 1)
+Button_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_25.BackgroundTransparency = 1.000
+Button_25.Position = UDim2.new(0.880999982, 0, 0.340999991, 0)
+Button_25.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
+Button_25.Image = "rbxassetid://2790382281"
+Button_25.ImageColor3 = Color3.fromRGB(19, 143, 143)
+Button_25.ScaleType = Enum.ScaleType.Slice
+Button_25.SliceCenter = Rect.new(4, 4, 252, 252)
 
 BtnText_30.Name = "BtnText"
-BtnText_30.Parent = Button_26
+BtnText_30.Parent = Button_25
 BtnText_30.AnchorPoint = Vector2.new(0.5, 0.5)
 BtnText_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_30.BackgroundTransparency = 1.000
@@ -1031,11 +1029,161 @@ BtnText_30.BorderSizePixel = 0
 BtnText_30.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
 BtnText_30.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
 BtnText_30.Font = Enum.Font.GothamBlack
-BtnText_30.Text = "CAMERA ROOM"
+BtnText_30.Text = "INVISIBLE"
 BtnText_30.TextColor3 = Color3.fromRGB(255, 255, 255)
 BtnText_30.TextScaled = true
 BtnText_30.TextSize = 14.000
 BtnText_30.TextWrapped = true
+
+Button_26.Name = "Button "
+Button_26.Parent = MISCFRAME
+Button_26.AnchorPoint = Vector2.new(1, 1)
+Button_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_26.BackgroundTransparency = 1.000
+Button_26.Position = UDim2.new(0.470999986, 0, 0.441000015, 0)
+Button_26.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
+Button_26.Image = "rbxassetid://2790382281"
+Button_26.ImageColor3 = Color3.fromRGB(19, 143, 143)
+Button_26.ScaleType = Enum.ScaleType.Slice
+Button_26.SliceCenter = Rect.new(4, 4, 252, 252)
+
+BtnText_31.Name = "BtnText"
+BtnText_31.Parent = Button_26
+BtnText_31.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_31.BackgroundTransparency = 1.000
+BtnText_31.BorderSizePixel = 0
+BtnText_31.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
+BtnText_31.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
+BtnText_31.Font = Enum.Font.GothamBlack
+BtnText_31.Text = "CAMERA ROOM"
+BtnText_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_31.TextScaled = true
+BtnText_31.TextSize = 14.000
+BtnText_31.TextWrapped = true
+
+Button_27.Name = "Button "
+Button_27.Parent = MISCFRAME
+Button_27.AnchorPoint = Vector2.new(1, 1)
+Button_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_27.BackgroundTransparency = 1.000
+Button_27.Position = UDim2.new(0.880999982, 0, 0.441000015, 0)
+Button_27.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
+Button_27.Image = "rbxassetid://2790382281"
+Button_27.ImageColor3 = Color3.fromRGB(19, 143, 143)
+Button_27.ScaleType = Enum.ScaleType.Slice
+Button_27.SliceCenter = Rect.new(4, 4, 252, 252)
+
+BtnText_32.Name = "BtnText"
+BtnText_32.Parent = Button_27
+BtnText_32.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_32.BackgroundTransparency = 1.000
+BtnText_32.BorderSizePixel = 0
+BtnText_32.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
+BtnText_32.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
+BtnText_32.Font = Enum.Font.GothamBlack
+BtnText_32.Text = "RESPAWN"
+BtnText_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_32.TextScaled = true
+BtnText_32.TextSize = 14.000
+BtnText_32.TextWrapped = true
+
+Button_28.Name = "Button "
+Button_28.Parent = MISCFRAME
+Button_28.AnchorPoint = Vector2.new(1, 1)
+Button_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_28.BackgroundTransparency = 1.000
+Button_28.Position = UDim2.new(0.470999986, 0, 0.541411042, 0)
+Button_28.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
+Button_28.Image = "rbxassetid://2790382281"
+Button_28.ImageColor3 = Color3.fromRGB(19, 143, 143)
+Button_28.ScaleType = Enum.ScaleType.Slice
+Button_28.SliceCenter = Rect.new(4, 4, 252, 252)
+
+BtnText_33.Name = "BtnText"
+BtnText_33.Parent = Button_28
+BtnText_33.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_33.BackgroundTransparency = 1.000
+BtnText_33.BorderSizePixel = 0
+BtnText_33.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
+BtnText_33.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
+BtnText_33.Font = Enum.Font.GothamBlack
+BtnText_33.Text = "ANTI INFECT PART"
+BtnText_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_33.TextScaled = true
+BtnText_33.TextSize = 14.000
+BtnText_33.TextWrapped = true
+
+Button_29.Name = "Button "
+Button_29.Parent = MISCFRAME
+Button_29.AnchorPoint = Vector2.new(1, 1)
+Button_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_29.BackgroundTransparency = 1.000
+Button_29.Position = UDim2.new(0.880999982, 0, 0.541000009, 0)
+Button_29.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
+Button_29.Image = "rbxassetid://2790382281"
+Button_29.ImageColor3 = Color3.fromRGB(19, 143, 143)
+Button_29.ScaleType = Enum.ScaleType.Slice
+Button_29.SliceCenter = Rect.new(4, 4, 252, 252)
+
+BtnText_34.Name = "BtnText"
+BtnText_34.Parent = Button_29
+BtnText_34.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_34.BackgroundTransparency = 1.000
+BtnText_34.BorderSizePixel = 0
+BtnText_34.Position = UDim2.new(0.498111337, 0, 0.482122391, 0)
+BtnText_34.Size = UDim2.new(0.808755696, -5, 0.794257462, -5)
+BtnText_34.Font = Enum.Font.GothamBlack
+BtnText_34.Text = "ANTI FORCEFIELD"
+BtnText_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_34.TextScaled = true
+BtnText_34.TextSize = 14.000
+BtnText_34.TextWrapped = true
+
+Button_30.Name = "Button "
+Button_30.Parent = MISCFRAME
+Button_30.AnchorPoint = Vector2.new(1, 1)
+Button_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button_30.BackgroundTransparency = 1.000
+Button_30.Position = UDim2.new(0.675999999, 0, 0.643944979, 0)
+Button_30.Size = UDim2.new(0.385020077, 0, 0.0737401098, 0)
+Button_30.Image = "rbxassetid://2790382281"
+Button_30.ImageColor3 = Color3.fromRGB(19, 143, 143)
+Button_30.ScaleType = Enum.ScaleType.Slice
+Button_30.SliceCenter = Rect.new(4, 4, 252, 252)
+
+BtnText_35.Name = "BtnText"
+BtnText_35.Parent = Button_30
+BtnText_35.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_35.BackgroundTransparency = 1.000
+BtnText_35.BorderSizePixel = 0
+BtnText_35.Position = UDim2.new(0.497999996, 0, 0.481999993, 0)
+BtnText_35.Size = UDim2.new(0.921874821, -5, 1.02472401, -5)
+BtnText_35.Font = Enum.Font.GothamBlack
+BtnText_35.Text = "CHIMICAL DISCHARGE"
+BtnText_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_35.TextScaled = true
+BtnText_35.TextSize = 17.000
+BtnText_35.TextWrapped = true
+
+BtnText_36.Name = "BtnText"
+BtnText_36.Parent = MISCFRAME
+BtnText_36.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_36.BackgroundTransparency = 1.000
+BtnText_36.BorderSizePixel = 0
+BtnText_36.Position = UDim2.new(0.483489841, 0, 0.794420183, 0)
+BtnText_36.Size = UDim2.new(0.807039201, -5, 0.253804356, -5)
+BtnText_36.Font = Enum.Font.GothamBlack
+BtnText_36.Text = "SOME OPTION IS STILL IN THE TEST PHASE\\n"
+BtnText_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_36.TextScaled = true
+BtnText_36.TextSize = 14.000
+BtnText_36.TextWrapped = true
 
 ImageButton.Parent = METABGUI
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1046,7 +1194,7 @@ ImageButton.Image = "http://www.roblox.com/asset/?id=7529900564"
 
 -- Scripts:
 
-local function LFFRR_fake_script() -- Button7ColourSwipe.Button7Script 
+local function HJWQ_fake_script() -- Button7ColourSwipe.Button7Script 
 	local script = Instance.new('LocalScript', Button7ColourSwipe)
 
 	local btn = script.Parent
@@ -1089,8 +1237,8 @@ local function LFFRR_fake_script() -- Button7ColourSwipe.Button7Script
 		end
 	end)
 end
-coroutine.wrap(LFFRR_fake_script)()
-local function VNHO_fake_script() -- Button7ColourSwipe.LocalScript 
+coroutine.wrap(HJWQ_fake_script)()
+local function UWIZ_fake_script() -- Button7ColourSwipe.LocalScript 
 	local script = Instance.new('LocalScript', Button7ColourSwipe)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1101,8 +1249,8 @@ local function VNHO_fake_script() -- Button7ColourSwipe.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(VNHO_fake_script)()
-local function IZUW_fake_script() -- Button7ColourSwipe_2.Button7Script 
+coroutine.wrap(UWIZ_fake_script)()
+local function AGHSAXL_fake_script() -- Button7ColourSwipe_2.Button7Script 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_2)
 
 	local btn = script.Parent
@@ -1145,8 +1293,8 @@ local function IZUW_fake_script() -- Button7ColourSwipe_2.Button7Script
 		end
 	end)
 end
-coroutine.wrap(IZUW_fake_script)()
-local function PFKNI_fake_script() -- Button7ColourSwipe_2.LocalScript 
+coroutine.wrap(AGHSAXL_fake_script)()
+local function AJKS_fake_script() -- Button7ColourSwipe_2.LocalScript 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1157,8 +1305,8 @@ local function PFKNI_fake_script() -- Button7ColourSwipe_2.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(PFKNI_fake_script)()
-local function QIVXVJS_fake_script() -- Button7ColourSwipe_3.Button7Script 
+coroutine.wrap(AJKS_fake_script)()
+local function MANWD_fake_script() -- Button7ColourSwipe_3.Button7Script 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_3)
 
 	local btn = script.Parent
@@ -1201,8 +1349,8 @@ local function QIVXVJS_fake_script() -- Button7ColourSwipe_3.Button7Script
 		end
 	end)
 end
-coroutine.wrap(QIVXVJS_fake_script)()
-local function HGDM_fake_script() -- Button7ColourSwipe_3.LocalScript 
+coroutine.wrap(MANWD_fake_script)()
+local function GQHUS_fake_script() -- Button7ColourSwipe_3.LocalScript 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_3)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1213,8 +1361,8 @@ local function HGDM_fake_script() -- Button7ColourSwipe_3.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(HGDM_fake_script)()
-local function HYHPR_fake_script() -- Button7ColourSwipe_4.Button7Script 
+coroutine.wrap(GQHUS_fake_script)()
+local function HVGQ_fake_script() -- Button7ColourSwipe_4.Button7Script 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_4)
 
 	local btn = script.Parent
@@ -1257,8 +1405,8 @@ local function HYHPR_fake_script() -- Button7ColourSwipe_4.Button7Script
 		end
 	end)
 end
-coroutine.wrap(HYHPR_fake_script)()
-local function ETPNTSY_fake_script() -- Button7ColourSwipe_4.LocalScript 
+coroutine.wrap(HVGQ_fake_script)()
+local function OBCUH_fake_script() -- Button7ColourSwipe_4.LocalScript 
 	local script = Instance.new('LocalScript', Button7ColourSwipe_4)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1269,8 +1417,8 @@ local function ETPNTSY_fake_script() -- Button7ColourSwipe_4.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(ETPNTSY_fake_script)()
-local function FLWTBIT_fake_script() -- Button.TABLE 
+coroutine.wrap(OBCUH_fake_script)()
+local function KGQW_fake_script() -- Button.TABLE 
 	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1281,8 +1429,8 @@ local function FLWTBIT_fake_script() -- Button.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(FLWTBIT_fake_script)()
-local function PHJHHZ_fake_script() -- Button.METAB SCRIPT 
+coroutine.wrap(KGQW_fake_script)()
+local function DCUS_fake_script() -- Button.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1296,8 +1444,8 @@ local function PHJHHZ_fake_script() -- Button.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(PHJHHZ_fake_script)()
-local function DQKNF_fake_script() -- Button_2.METAB SCRIPT 
+coroutine.wrap(DCUS_fake_script)()
+local function WWMEGV_fake_script() -- Button_2.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_2)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1311,8 +1459,8 @@ local function DQKNF_fake_script() -- Button_2.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(DQKNF_fake_script)()
-local function JHFB_fake_script() -- Button_2.TABLE 
+coroutine.wrap(WWMEGV_fake_script)()
+local function LJLR_fake_script() -- Button_2.TABLE 
 	local script = Instance.new('LocalScript', Button_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1323,8 +1471,8 @@ local function JHFB_fake_script() -- Button_2.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(JHFB_fake_script)()
-local function MEMUM_fake_script() -- Button_3.TABLE 
+coroutine.wrap(LJLR_fake_script)()
+local function BGJI_fake_script() -- Button_3.TABLE 
 	local script = Instance.new('LocalScript', Button_3)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1335,8 +1483,8 @@ local function MEMUM_fake_script() -- Button_3.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(MEMUM_fake_script)()
-local function WQPGAGH_fake_script() -- Button_3.METAB SCRIPT 
+coroutine.wrap(BGJI_fake_script)()
+local function UBOTN_fake_script() -- Button_3.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_3)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1350,8 +1498,8 @@ local function WQPGAGH_fake_script() -- Button_3.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(WQPGAGH_fake_script)()
-local function RTYRQ_fake_script() -- Button_4.TABLE 
+coroutine.wrap(UBOTN_fake_script)()
+local function AIBUZTC_fake_script() -- Button_4.TABLE 
 	local script = Instance.new('LocalScript', Button_4)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1362,8 +1510,8 @@ local function RTYRQ_fake_script() -- Button_4.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(RTYRQ_fake_script)()
-local function XPOXITN_fake_script() -- Button_4.METAB SCRIPT 
+coroutine.wrap(AIBUZTC_fake_script)()
+local function OUJVJVM_fake_script() -- Button_4.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_4)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1379,8 +1527,8 @@ local function XPOXITN_fake_script() -- Button_4.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(XPOXITN_fake_script)()
-local function JMZTGXX_fake_script() -- Button_5.TABLE 
+coroutine.wrap(OUJVJVM_fake_script)()
+local function KGXOFHY_fake_script() -- Button_5.TABLE 
 	local script = Instance.new('LocalScript', Button_5)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1391,8 +1539,8 @@ local function JMZTGXX_fake_script() -- Button_5.TABLE
 		wait(0.1)
 	end)
 end
-coroutine.wrap(JMZTGXX_fake_script)()
-local function GIEA_fake_script() -- Button_5.METAB SCRIPT 
+coroutine.wrap(KGXOFHY_fake_script)()
+local function ONKSFY_fake_script() -- Button_5.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_5)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1406,8 +1554,8 @@ local function GIEA_fake_script() -- Button_5.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(GIEA_fake_script)()
-local function QZTODKG_fake_script() -- Button_6.METAB SCRIPT 
+coroutine.wrap(ONKSFY_fake_script)()
+local function MQJUMJ_fake_script() -- Button_6.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_6)
 
 	
@@ -1420,8 +1568,8 @@ local function QZTODKG_fake_script() -- Button_6.METAB SCRIPT
 		
 		end)
 end
-coroutine.wrap(QZTODKG_fake_script)()
-local function BBBUKB_fake_script() -- Button_7.METAB SCRIPT 
+coroutine.wrap(MQJUMJ_fake_script)()
+local function DCLTQ_fake_script() -- Button_7.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1436,8 +1584,8 @@ local function BBBUKB_fake_script() -- Button_7.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(BBBUKB_fake_script)()
-local function PDHU_fake_script() -- Button_8.METAB SCRIPT 
+coroutine.wrap(DCLTQ_fake_script)()
+local function FGRW_fake_script() -- Button_8.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_8)
 
 	
@@ -1454,8 +1602,8 @@ local function PDHU_fake_script() -- Button_8.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(PDHU_fake_script)()
-local function GRQE_fake_script() -- Button_9.METAB SCRIPT 
+coroutine.wrap(FGRW_fake_script)()
+local function FHGQQX_fake_script() -- Button_9.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_9)
 
 	
@@ -1467,8 +1615,8 @@ local function GRQE_fake_script() -- Button_9.METAB SCRIPT
 		fireclickdetector(clickdetector)
 		end)
 end
-coroutine.wrap(GRQE_fake_script)()
-local function SLGDE_fake_script() -- Button_10.METAB SCRIPT 
+coroutine.wrap(FHGQQX_fake_script)()
+local function NPSXO_fake_script() -- Button_10.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_10)
 
 	
@@ -1486,8 +1634,8 @@ local function SLGDE_fake_script() -- Button_10.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(SLGDE_fake_script)()
-local function RBEV_fake_script() -- Button_11.METAB SCRIPT 
+coroutine.wrap(NPSXO_fake_script)()
+local function GZEMDY_fake_script() -- Button_11.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_11)
 
 	
@@ -1508,8 +1656,8 @@ local function RBEV_fake_script() -- Button_11.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(RBEV_fake_script)()
-local function TUNKKOM_fake_script() -- Button_12.METAB SCRIPT 
+coroutine.wrap(GZEMDY_fake_script)()
+local function ASJC_fake_script() -- Button_12.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_12)
 
 	
@@ -1530,8 +1678,8 @@ local function TUNKKOM_fake_script() -- Button_12.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(TUNKKOM_fake_script)()
-local function AAOF_fake_script() -- Button_13.METAB SCRIPT 
+coroutine.wrap(ASJC_fake_script)()
+local function TAEMM_fake_script() -- Button_13.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_13)
 
 	
@@ -1548,8 +1696,8 @@ local function AAOF_fake_script() -- Button_13.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(AAOF_fake_script)()
-local function ISMUJ_fake_script() -- Button_14.METAB SCRIPT 
+coroutine.wrap(TAEMM_fake_script)()
+local function NEJBV_fake_script() -- Button_14.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1564,8 +1712,8 @@ local function ISMUJ_fake_script() -- Button_14.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(ISMUJ_fake_script)()
-local function JYEGGIC_fake_script() -- Button_15.METAB SCRIPT 
+coroutine.wrap(NEJBV_fake_script)()
+local function WUBFE_fake_script() -- Button_15.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_15)
 
 	
@@ -1578,8 +1726,8 @@ local function JYEGGIC_fake_script() -- Button_15.METAB SCRIPT
 		
 		end)
 end
-coroutine.wrap(JYEGGIC_fake_script)()
-local function KWIJ_fake_script() -- Button_16.ANIMATION 
+coroutine.wrap(WUBFE_fake_script)()
+local function FAMX_fake_script() -- Button_16.ANIMATION 
 	local script = Instance.new('LocalScript', Button_16)
 
 	local btn = script.Parent
@@ -1622,8 +1770,8 @@ local function KWIJ_fake_script() -- Button_16.ANIMATION
 		end
 	end)
 end
-coroutine.wrap(KWIJ_fake_script)()
-local function BASUK_fake_script() -- Button_17.METAB SCRIPT 
+coroutine.wrap(FAMX_fake_script)()
+local function CETHM_fake_script() -- Button_17.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_17)
 
 	
@@ -1636,8 +1784,8 @@ local function BASUK_fake_script() -- Button_17.METAB SCRIPT
 	
 	end)
 end
-coroutine.wrap(BASUK_fake_script)()
-local function TIUQP_fake_script() -- Button_18.METAB SCRIPT 
+coroutine.wrap(CETHM_fake_script)()
+local function UJTCPNB_fake_script() -- Button_18.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_18)
 
 	
@@ -1654,8 +1802,8 @@ local function TIUQP_fake_script() -- Button_18.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(TIUQP_fake_script)()
-local function EEHTO_fake_script() -- Button_19.METAB SCRIPT 
+coroutine.wrap(UJTCPNB_fake_script)()
+local function OXVNC_fake_script() -- Button_19.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_19)
 
 	
@@ -1672,16 +1820,16 @@ local function EEHTO_fake_script() -- Button_19.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(EEHTO_fake_script)()
-local function SPFYKB_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(OXVNC_fake_script)()
+local function LUVTG_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(SPFYKB_fake_script)()
-local function SBKYNGH_fake_script() -- CloseButton.ANIME 
+coroutine.wrap(LUVTG_fake_script)()
+local function POCO_fake_script() -- CloseButton.ANIME 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	local btn = script.Parent
@@ -1724,8 +1872,8 @@ local function SBKYNGH_fake_script() -- CloseButton.ANIME
 		end
 	end)
 end
-coroutine.wrap(SBKYNGH_fake_script)()
-local function LBKVEJD_fake_script() -- ImageLabel.DEPLACE  
+coroutine.wrap(POCO_fake_script)()
+local function BWFWJCP_fake_script() -- ImageLabel.DEPLACE  
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	
@@ -1803,8 +1951,8 @@ local function LBKVEJD_fake_script() -- ImageLabel.DEPLACE
 	
 	
 end
-coroutine.wrap(LBKVEJD_fake_script)()
-local function QPYOU_fake_script() -- Button_20.METAB SCRIPT 
+coroutine.wrap(BWFWJCP_fake_script)()
+local function WFPBN_fake_script() -- Button_20.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_20)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1823,8 +1971,8 @@ local function QPYOU_fake_script() -- Button_20.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(QPYOU_fake_script)()
-local function YAMQ_fake_script() -- Button_21.METAB SCRIPT 
+coroutine.wrap(WFPBN_fake_script)()
+local function HWTD_fake_script() -- Button_21.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_21)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1837,8 +1985,8 @@ local function YAMQ_fake_script() -- Button_21.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(YAMQ_fake_script)()
-local function PFTLQ_fake_script() -- Button_22.METAB SCRIPT 
+coroutine.wrap(HWTD_fake_script)()
+local function JIHTLWO_fake_script() -- Button_22.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_22)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1852,13 +2000,22 @@ local function PFTLQ_fake_script() -- Button_22.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(PFTLQ_fake_script)()
-local function JPNU_fake_script() -- Button_23.METAB SCRIPT 
+coroutine.wrap(JIHTLWO_fake_script)()
+local function DOAUS_fake_script() -- Button_23.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_23)
 
 	script.Parent.MouseButton1Down:connect(function()
 	
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-95.967239379883, 3.9999992847443, 75.780075073242)
+		
+		local removeplayers = true;
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v:findFirstChild("Model") then
+				if removeplayers == true then
+					v:Destroy();
+				end
+			end
+		end
 	end)
 	
 	
@@ -1866,8 +2023,8 @@ local function JPNU_fake_script() -- Button_23.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(JPNU_fake_script)()
-local function DWWK_fake_script() -- Button_24.METAB SCRIPT 
+coroutine.wrap(DOAUS_fake_script)()
+local function OESLAP_fake_script() -- Button_24.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_24)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1880,12 +2037,12 @@ local function DWWK_fake_script() -- Button_24.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(DWWK_fake_script)()
-local function BHSEX_fake_script() -- Button_25.METAB SCRIPT 
+coroutine.wrap(OESLAP_fake_script)()
+local function JVEV_fake_script() -- Button_25.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_25)
 
-	script.Parent.MouseButton1Down:connect(function()
 	
+	script.Parent.MouseButton1Down:connect(function()
 		local player = game.Players.LocalPlayer
 		position     = player.Character.HumanoidRootPart.Position
 		wait(0.1)
@@ -1897,24 +2054,10 @@ local function BHSEX_fake_script() -- Button_25.METAB SCRIPT
 		humanoidrootpart.Parent = player.Character
 		player.Character:MoveTo(position)
 		wait()
-		-- Remove this if you want to see yourself (others still won't see you)
-		game.Players.LocalPlayer.Character.Torso.Transparency = 1
-		game.Players.LocalPlayer.Character.Head.Transparency  = 1
-		game.Players.LocalPlayer.Character["Left Arm"].Transparency = 1
-		game.Players.LocalPlayer.Character["Right Arm"].Transparency = 1
-		game.Players.LocalPlayer.Character["Left Leg"].Transparency = 1
-		game.Players.LocalPlayer.Character["Right Leg"].Transparency = 1
-		game.Players.LocalPlayer.Character.Humanoid:RemoveAccessories()
-		game.Players.LocalPlayer.Character.Head.face:Remove()
-	end)
-	
-	
-	
-	
-	
+		end)
 end
-coroutine.wrap(BHSEX_fake_script)()
-local function OSPJWP_fake_script() -- Button_26.METAB SCRIPT 
+coroutine.wrap(JVEV_fake_script)()
+local function JHURRA_fake_script() -- Button_26.METAB SCRIPT 
 	local script = Instance.new('LocalScript', Button_26)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -1927,8 +2070,198 @@ local function OSPJWP_fake_script() -- Button_26.METAB SCRIPT
 	
 	
 end
-coroutine.wrap(OSPJWP_fake_script)()
-local function AHFTTYP_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(JHURRA_fake_script)()
+local function VDQXRGC_fake_script() -- Button_27.METAB SCRIPT 
+	local script = Instance.new('LocalScript', Button_27)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		LocalPlayer = game:GetService("Players").LocalPlayer
+		LocalPlayer.Character.Humanoid:MoveTo(LocalPlayer.Character.HumanoidRootPart.Position + LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 10)
+		LocalPlayer.Character.Humanoid.Jump = true
+		wait(0.5)
+		function Iterate(instance, func)
+			for i, v in next, instance:GetChildren() do
+				func(v)
+			end
+		end
+		limbs = {
+			["Right Leg"] = true;
+			["Right Arm"] = true;
+			["Left Leg"] = true;
+			["Left Arm"] = true;
+		}
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				local attachment = Instance.new("Attachment")
+				attachment.Parent = v
+				attachment.Name = (v.Name .. "[Attachment]")
+				if limbs[v.Name] then
+					attachment.Position = Vector3.new(0, v.Size.Y/2, 0)
+				elseif v.Name == "Head" then
+					attachment.Position = Vector3.new(0, -v.Size.Y/2, 0)
+					attachment.Rotation = Vector3.new(0, 0, -90)
+				end
+			end
+		end)
+		local leftLegAttachment = Instance.new("Attachment")
+		leftLegAttachment.Position = Vector3.new(-.5, -1, 0)
+		leftLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		local rightLegAttachment = Instance.new("Attachment")
+		rightLegAttachment.Position = Vector3.new(.5, -1, 0)
+		rightLegAttachment.Rotation = Vector3.new(0, -90, 0)
+		rightLegAttachment.Parent, leftLegAttachment.Parent = LocalPlayer.Character.Torso, LocalPlayer.Character.Torso
+		jointAttachments = {
+			['Head'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['NeckAttachment'];
+				['Attachment1'] = LocalPlayer.Character.Head['Head[Attachment]'];
+			};
+			['Left Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['LeftCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Left Arm']['Left Arm[Attachment]'];
+			};
+			['Right Arm'] = {
+				['Attachment0'] = LocalPlayer.Character.Torso['RightCollarAttachment'];
+				['Attachment1'] = LocalPlayer.Character['Right Arm']['Right Arm[Attachment]'];
+			};
+			['Left Leg'] = {
+				['Attachment0'] = leftLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Left Leg']['Left Leg[Attachment]'];
+			};
+			['Right Leg'] = {
+				['Attachment0'] = rightLegAttachment;
+				['Attachment1'] = LocalPlayer.Character['Right Leg']['Right Leg[Attachment]'];
+			};
+		}
+		LocalPlayer.Character.Humanoid.PlatformStand = true
+		Iterate(LocalPlayer.Character, function(v)
+			if v:IsA("BasePart") then
+				if jointAttachments[v.Name] then
+					local ballSocketJoint = Instance.new("BallSocketConstraint")
+					ballSocketJoint.Parent = v
+					ballSocketJoint.Radius = 0.15
+					ballSocketJoint.Attachment0, ballSocketJoint.Attachment1 = jointAttachments[v.Name]['Attachment0'], jointAttachments[v.Name]['Attachment1']
+				end
+			end
+		end)
+		Iterate(LocalPlayer.Character.Torso, function(v)
+			if v:IsA("Motor") then
+				v:Remove()
+			end
+	end)
+	end)
+	
+end
+coroutine.wrap(VDQXRGC_fake_script)()
+local function OPQO_fake_script() -- Button_28.METAB SCRIPT 
+	local script = Instance.new('LocalScript', Button_28)
+
+	
+	toggle = false
+	script.Parent.MouseButton1Down:connect(function()
+	
+		if toggle == true then 
+			toggle = false 
+		else
+			toggle = true
+		end
+		if toggle == true then 
+			script.Parent.ImageColor3 = Color3.fromRGB(0, 255, 0)
+		end
+		if toggle == false then 
+			script.Parent.ImageColor3 = Color3.fromRGB(170, 0, 0)
+		end
+	
+		if toggle == true then
+			_G.Toggle = true
+			while _G.Toggle do
+				wait()
+	
+				for i,v in pairs(game.Workspace:GetChildren()) do 
+					if v.Name == "Regen" then 
+						for a,b in pairs(v:GetChildren()) do
+							b:Destroy() 
+						
+		if toggle == true then 
+			_G.Toggle = true
+			while _G.Toggle do
+				wait()
+	
+									for i,v in pairs(game.Workspace:GetChildren()) do 
+										if v.Name == "Regen" then 
+											for a,b in pairs(v:GetChildren()) do
+												b:Destroy() 
+											end
+										end
+									end
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(OPQO_fake_script)()
+local function FJVDJ_fake_script() -- Button_29.METAB SCRIPT 
+	local script = Instance.new('LocalScript', Button_29)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		while true do 
+			wait()
+			local removeplayers = true;
+			for i,v in pairs(game.Workspace:GetChildren()) do
+				if v:findFirstChild("oofidmonkey") then
+					if removeplayers == true then
+						v:Destroy();
+					end
+				end
+			end
+	
+		end
+	end)
+	
+	
+	
+	
+	
+end
+coroutine.wrap(FJVDJ_fake_script)()
+local function WKNBWPF_fake_script() -- Button_30.METAB SCRIPT 
+	local script = Instance.new('LocalScript', Button_30)
+
+	script.Parent.MouseButton1Down:connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(95.591102600098, -9.0000028610229, 220.68240356445)
+	end)
+	
+	
+	
+	
+	
+end
+coroutine.wrap(WKNBWPF_fake_script)()
+local function IERWOGY_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1936,4 +2269,4 @@ local function AHFTTYP_fake_script() -- ImageButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(AHFTTYP_fake_script)()
+coroutine.wrap(IERWOGY_fake_script)()
